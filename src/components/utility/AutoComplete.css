@@ -5,13 +5,17 @@
   
   .suggestions {
     border: 1px solid #999;
+    background: #fff;
     border-top-width: 0;
     list-style: none;
     margin-top: -25px;
     max-height: 143px;
-    overflow-y: auto;
+    overflow: scroll;
     padding-left: 0;
-    width:100%
+    width:90%;
+    position: absolute;
+     top:100%;
+     z-index: 1000
     /* width: calc(300px + 1rem); */
   }
   
@@ -21,7 +25,7 @@
   
   .suggestion-active,
   .suggestions li:hover {
-    /* background-color: #008f68; */
+    background-color: #ccc;
     /* color: #fae042; */
     cursor: pointer;
     /* font-weight: 700; */

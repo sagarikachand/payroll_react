@@ -31,7 +31,13 @@ const FieldInput = (props) => {
                 case 'autoCompleteInput':
                  fieldTemplate= <AutoComplete className="app_formField" config={props.config} style={style}
                  suggestions={[
-                    "Alligator",
+                    "Alligator(1142)",
+                    "Alligator1(1145)",
+                    "Alligator2(9897)",
+                    "Alligator3",
+                    "Alligator4",
+                    "Alligator5",
+                    "Alligator6",
                     "Bask",
                     "Crocodilian",
                     "Death Roll",

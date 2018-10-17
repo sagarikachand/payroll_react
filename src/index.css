@@ -103,14 +103,16 @@ select:after{
 }
 .extractView_wrapper .input_item{
   padding: 0 15px 0px 15px;
-  width: 22%;
+  width: 25%;
+  box-sizing: border-box;
   min-width: 300px;
   flex-grow: 1;
+  position: relative;
 }
 
 .input_item:last-child{
- width: 47%;
-
+ width: 50%;
+ box-sizing: border-box;
 
 }
 
